@@ -3,7 +3,7 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace ExemploEntityFramework.Dominio
 {
-    class AppDBContext:DbContext
+    public class AppDBContext:DbContext
     {
         public DbSet<Categoria> Categorias { get; set; }
         public AppDBContext() : base(nameOrConnectionString: "exemplo")

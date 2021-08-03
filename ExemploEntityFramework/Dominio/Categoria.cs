@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExemploEntityFramework.Dominio
 {
-    class Categoria
+    public class Categoria
     {
         [Key]
         public int Id { get; set; }
